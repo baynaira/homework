@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Greeting</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'homework/style.css' %}"> 
 </head>
 <body>
     <h1>Hello, {{ name }}!</h1>
